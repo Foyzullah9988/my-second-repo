@@ -1,0 +1,22 @@
+.back {
+    background-color:  rgb(200, 214, 229, 0.5);
+    background-attachment: fixed;  /* This is what makes the background fixed */
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+div {
+    background-color: rgb(200, 214, 229, 0.5);
+    border: 10px ridge #576574;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px aqua;
+}
+body {
+        background-image: url('./boat.jpg');
+    background-attachment: fixed;  /* This is what makes the background fixed */
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
