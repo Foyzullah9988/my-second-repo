@@ -1,9 +1,12 @@
-.back {
+#back {
     background-color:  rgb(200, 214, 229, 0.5);
     background-attachment: fixed;  /* This is what makes the background fixed */
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #81ecec;
+    border: 10px double #576574 ;
+    color: rgb(0, 0, 0);
 }
 div {
     background-color: rgb(200, 214, 229, 0.5);
@@ -14,9 +17,34 @@ div {
     box-shadow: 7px 7px 7px aqua;
 }
 body {
-        background-image: url('./boat.jpg');
-    background-attachment: fixed;  /* This is what makes the background fixed */
+    background-image: url('./boat.jpg');
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    
+}
+.one {
+    border-radius:20px;
+}
+.two-four {
+    border-radius:  0 20px 0 20px;
+}
+.three-five {
+    border-radius:  20px 0 20px 0;
+}
+.none {
+    border: none;
+    /* background-color: transparent; */
+    background-color: #636e72 ;
+    color: #fff;
+    text-align: center;
+}
+h4 , h3 {
+    color: rgba(68, 38, 112, 0.668);
+    text-decoration:underline;
+    
+}
+img {
+    width: 30%;
+    max-width: 250px;
 }
