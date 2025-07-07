@@ -1,61 +1,50 @@
-body {
-    margin: 0;
-}
-#main {
-    background:linear-gradient(45deg, aqua, green ,blue);
-    padding: 10px;
-    margin: 0;
-    min-height: 100vh;
-    box-sizing: border-box;
-}
-.first-div {
-    display: flex;
-    justify-content: space-between;    
-    background: linear-gradient(45deg,rgb(255, 161, 161),rgb(252, 205, 118), rgb(254, 254, 148));
-    align-items: center;
-    padding: 5px;
- 
-}
-
-.first-div .right {
-    display: flex;
-}
-a {
-    margin: 0 10px;
-    text-decoration: none;
-}
-.second-div {
-    flex: 10;
-    margin : 10px 20px 10px 20px;
-    text-align: left;
-    text-decoration: j;
-}
-.div-three {
-    background:linear-gradient(45deg,rgb(4, 79, 4),blue);
-    align-items: center;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    margin: 0 auto;
-    padding: 30px;
-    justify-content: center;
+#back {
+    background-color:  rgb(200, 214, 229, 0.5);
+    background-attachment: fixed;  /* This is what makes the background fixed */
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 10px;
+    box-shadow: 10px 10px 10px #81ecec;
+    border: 10px double #576574 ;
+    color: rgb(0, 0, 0);
 }
-.div-three input {
+div {
+    background-color: rgb(200, 214, 229, 0.5);
+    border: 10px ridge #576574;
+    margin: 15px;
     padding: 10px;
-    margin: 5px;
-
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px aqua;
 }
-.input {
-    color: rgb(255, 255, 255);
-     
-    background:linear-gradient(45deg,rgb(4, 79, 4),blue);
+body {
+    background-image: url('./boat.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
-.flex {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    gap: 30px;
-    margin-top: 40px;
+.one {
+    border-radius:20px;
+}
+.two-four {
+    border-radius:  0 20px 0 20px;
+}
+.three-five {
+    border-radius:  20px 0 20px 0;
+}
+.none {
+    border: none;
+    /* background-color: transparent; */
+    background-color: #636e72 ;
+    color: #fff;
+    text-align: center;
+}
+h4 , h3 {
+    color: rgba(68, 38, 112, 0.668);
+    text-decoration:underline;
+    
+}
+img {
+    width: 30%;
+    max-width: 250px;
 }
